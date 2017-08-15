@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		553B81E11F430BFF00242E8C /* LanguageListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553B81E01F430BFF00242E8C /* LanguageListController.swift */; };
 		554485321F42E0D500008552 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554485311F42E0D500008552 /* AppDelegate.swift */; };
 		554485341F42E0D500008552 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554485331F42E0D500008552 /* MasterViewController.swift */; };
 		554485361F42E0D500008552 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554485351F42E0D500008552 /* DetailViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		553B81E01F430BFF00242E8C /* LanguageListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageListController.swift; sourceTree = "<group>"; };
 		5544852E1F42E0D500008552 /* Presidents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Presidents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		554485311F42E0D500008552 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		554485331F42E0D500008552 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				5544853C1F42E0D500008552 /* LaunchScreen.storyboard */,
 				5544853F1F42E0D500008552 /* Info.plist */,
 				554485611F42E64D00008552 /* PresidentList.plist */,
+				553B81E01F430BFF00242E8C /* LanguageListController.swift */,
 			);
 			path = Presidents;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				554485361F42E0D500008552 /* DetailViewController.swift in Sources */,
 				554485341F42E0D500008552 /* MasterViewController.swift in Sources */,
 				554485321F42E0D500008552 /* AppDelegate.swift in Sources */,
+				553B81E11F430BFF00242E8C /* LanguageListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +519,7 @@
 				5544855A1F42E0D500008552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5544855B1F42E0D500008552 /* Build configuration list for PBXNativeTarget "PresidentsTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				5544855D1F42E0D500008552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5544855E1F42E0D500008552 /* Build configuration list for PBXNativeTarget "PresidentsUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +537,7 @@
 				554485601F42E0D500008552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

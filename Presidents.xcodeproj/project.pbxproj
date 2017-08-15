@@ -15,6 +15,7 @@
 		5544853E1F42E0D500008552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5544853C1F42E0D500008552 /* LaunchScreen.storyboard */; };
 		554485491F42E0D500008552 /* PresidentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554485481F42E0D500008552 /* PresidentsTests.swift */; };
 		554485541F42E0D500008552 /* PresidentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554485531F42E0D500008552 /* PresidentsUITests.swift */; };
+		554485621F42E64D00008552 /* PresidentList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 554485611F42E64D00008552 /* PresidentList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5544854F1F42E0D500008552 /* PresidentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresidentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		554485531F42E0D500008552 /* PresidentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidentsUITests.swift; sourceTree = "<group>"; };
 		554485551F42E0D500008552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554485611F42E64D00008552 /* PresidentList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PresidentList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				5544853A1F42E0D500008552 /* Assets.xcassets */,
 				5544853C1F42E0D500008552 /* LaunchScreen.storyboard */,
 				5544853F1F42E0D500008552 /* Info.plist */,
+				554485611F42E64D00008552 /* PresidentList.plist */,
 			);
 			path = Presidents;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				5544853E1F42E0D500008552 /* LaunchScreen.storyboard in Resources */,
 				5544853B1F42E0D500008552 /* Assets.xcassets in Resources */,
 				554485391F42E0D500008552 /* Main.storyboard in Resources */,
+				554485621F42E64D00008552 /* PresidentList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
